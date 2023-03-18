@@ -1,0 +1,53 @@
+
+	.brandingLogo{
+        display: none;
+    }
+    #mc_embed_signup{
+        background:#fff; 
+        clear:left; 
+        font:14px Helvetica,Arial,sans-serif;  
+        width:70%;
+        box-shadow: 0px 0px 5px 5px #C7C7C7;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    .emailByline{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .emailHeadline, .emailByline{
+        text-align: center;
+    }
+    .mc-field-group{
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .email-label{
+        margin-right: 10%;
+    } 
+    .firstname-label, .lastname-label{
+        margin-right: 15%;
+    }
+    #mce-EMAIL, #mce-FNAME, #mce-LNAME{
+        width: 200px;
+    }
+    .indicates-required{
+        font-size: 10px;
+        font-style: italic;
+    }
+    .optionalParent{
+        text-align: center;
+        margin: 20px auto;
+    }
+    #mc-embedded-subscribe{
+        cursor: pointer;
+    }
+    @media screen and (max-width: 500px){
+        .email-label, .firstname-label, .lastname-label{
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+    }
+
